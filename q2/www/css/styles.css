@@ -25,6 +25,7 @@ header {
 
 /* This heading is specifically for University homepage */
 h1 {
+  text-align: center;
   color: #d24a88;
   font-size: 60px;
 }
