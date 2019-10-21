@@ -1,0 +1,102 @@
+@import url(https://fonts.googleapis.com/css?family=Quicksand:400,700,400italic,700italic);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:300,700,300italic,700italic);
+
+* {
+  box-sizing: border-box;
+}
+
+/* Changed from the original one and move the cp202-a1-serif fonts to here */
+body {
+  font-family: Palatino, FreeSerif, serif;
+  font-size: 16px;
+  font-weight: normal;
+  background-color:#fb9bcb;
+  margin: 50px;
+  color: black;
+}
+
+/* Changed for h1 and h10 */
+header {
+  background-color: white;
+  padding: 30px;
+  color: #d24a88;
+}
+
+/* This heading is specifically for University homepage */
+h1 {
+  color: #d24a88;
+  font-size: 60px;
+}
+
+h2 {
+  color: #734576;
+}
+
+/* A smaller heading for Department homepages */
+h10 {
+  color: #d24a88;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+p::first-letter {
+  color: white;
+  font-size: 24px;
+}
+
+/* Type paragraphs without their first letters change and allow spaces*/
+pre {
+  font-family: Palatino, FreeSerif, serif;
+  font-size: 16px;
+  font-weight: normal;
+  color: black;
+}
+
+.left-column {
+  float: left;
+  width: 61.8%;
+  background: #f06aa7;
+  padding: 20px;
+}
+
+.left-column img {
+  width: 100%;
+}
+
+
+.right-column {
+  float: left;
+  padding: 20px;
+  width: 38.2%;
+  background-color: #af85b2;
+}
+
+.right-column img {
+   width: 100%;
+}
+
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Changed from the original color to this to make them cute */
+footer {
+  background-color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: 15px;
+  color: #fb9bcb;
+}
+
+/* Stack columns */
+@media (max-width: 600px) {
+  .left-column, .right-column {
+    width: 100%;
+    height: auto;
+  }
+}
