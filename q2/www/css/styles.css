@@ -33,6 +33,11 @@ h2 {
   color: #734576;
 }
 
+h3 {
+  color: #734576;
+  font-weight: normal;
+}
+
 /* A smaller heading for Department homepages */
 h10 {
   color: #d24a88;
