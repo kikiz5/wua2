@@ -27,7 +27,8 @@ body {
   font-size: 20px;
   font-weight: normal;
   background-image: url("../img/background.jpg");
-  /*background-color:#423131;*/
+  background-position: center;
+  background-attachment: fixed;
   margin: 50px;
   color: white;
 }
@@ -125,6 +126,22 @@ pre {
   color: white;
 }
 
+button {
+  font-family: 'Baloo Bhai', cursive;
+  font-size: 1.0em;
+  background-color: #f8dc4a;
+  border: none;
+  color: #423131;
+  padding: 10px 25px;
+  text-align: center;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #217eff;
+  color: white;
+}
+
 .left-column {
   float: left;
   width: 50.0%;
@@ -159,6 +176,10 @@ pre {
   width: 100.0%;
   background-color: #423131;
   opacity: 0.95;
+}
+
+.one-column img {
+   width: 33.0%;
 }
 
 /* Clear floats after the columns */
