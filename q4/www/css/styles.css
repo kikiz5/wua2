@@ -56,7 +56,6 @@ li {
 
 li a {
   display: block;
-  color: #423131;
   text-align: center;
   padding: 14px 18px;
   text-decoration: none;
@@ -64,7 +63,7 @@ li a {
 
 .dropbtn {
   display: inline-block;
-  color: #423131;
+  color: inherit;
   text-align: center;
   padding: 14px 18px;
   text-decoration: none;
