@@ -21,7 +21,7 @@
   box-sizing: border-box;
 }
 
-/* Changed from the original one and move the cp202-a1-serif fonts to here */
+/* Changed to the custom font from google fonts */
 body {
   font-family: 'Baloo Bhai', cursive;
   font-size: 20px;
@@ -33,7 +33,6 @@ body {
   color: white;
 }
 
-/* Changed for h1 and h10 */
 header {
   background: rgba(210,74,136,0.9);
   padding: 1px;
@@ -41,7 +40,7 @@ header {
   text-align: center;
 }
 
-/* Navigation bar*/
+/* Navigation Dropdown Bar*/
 ul {
   list-style-type: none;
   margin: 0;
@@ -155,7 +154,6 @@ a:visited {
   color: inherit;
 }
 
-/* Type paragraphs without their first letters change and allow spaces*/
 pre {
   font-family: 'Baloo Bhai', cursive;
   font-weight: normal;
@@ -163,6 +161,7 @@ pre {
   color: white;
 }
 
+/* Cart buttons */
 button {
   font-family: 'Baloo Bhai', cursive;
   font-size: 1.0em;
@@ -179,6 +178,7 @@ button:hover {
   color: white;
 }
 
+/* Layout */
 .left-column {
   float: left;
   width: 50.0%;
@@ -234,7 +234,7 @@ section:after {
   clear: both;
 }
 
-/* Changed from the original color to this to make them cute */
+/* Some hover features for footer */
 footer {
   background: rgba(210,74,136,0.9);
   padding: 10px;
