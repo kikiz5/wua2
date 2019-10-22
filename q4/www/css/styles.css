@@ -154,17 +154,25 @@ button:hover {
   width: 100%;
 }
 
+.one-column .left-column {
+  padding: 10px;
+}
+
 .right-column {
   float: left;
   padding: 20px;
   width: 50.0%;
   /*background: rgba(66,49,49,0.95);*/
-  border-left-style: dashed;
-  border-width: thick;
+  /*border-left-style: dashed;
+  border-width: thick;*/
 }
 
 .one-column .right-column img {
    width: 100%;
+}
+
+.one-column .right-column {
+  padding: 10px;
 }
 
 .one-column {
@@ -172,6 +180,9 @@ button:hover {
   padding: 20px;
   width: 100.0%;
   background: rgba(66,49,49,0.95);
+  border-left-style: dashed;
+  border-right-style: dashed;
+  border-width: thick;
 }
 
 .one-column img {
