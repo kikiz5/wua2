@@ -54,9 +54,9 @@ p::first-letter {
 /* Type paragraphs without their first letters change and allow spaces*/
 pre {
   font-family: Palatino, FreeSerif, serif;
-  font-size: 16px;
-  font-weight: normal;
-  color: black;
+  text-align: center;
+  font-size: 15px;
+  color: #fb9bcb;
 }
 
 .left-column {
