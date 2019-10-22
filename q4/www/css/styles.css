@@ -59,9 +59,47 @@ li a {
   display: block;
   color: #423131;
   text-align: center;
-  padding: 14px 30px;
+  padding: 14px 18px;
   text-decoration: none;
 }
+
+.dropbtn {
+  display: inline-block;
+  color: #423131;
+  text-align: center;
+  padding: 14px 18px;
+  text-decoration: none;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #217eff;
+  color: white;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background: rgba(255,255,255,0.9);
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a {
+  padding: 14px 18px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
 
 li a:hover:not(.active) {
   background-color: #217eff;
