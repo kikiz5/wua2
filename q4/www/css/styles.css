@@ -252,9 +252,36 @@ footer a:active {
 }
 
 /* Stack columns */
-@media (max-width: 600px) {
+@media (max-width: 650px) and (min-width: 241px) {
   .left-column, .right-column {
     width: 100%;
     height: auto;
+  }
+  body {
+    margin: 10px;
+    font-size: 19px;
+  }
+  .one-column img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 240px) {
+  .left-column, .right-column {
+    width: 100%;
+    height: auto;
+  }
+  body {
+    margin: 5px;
+    font-size: 15px;
+  }
+  ul {
+    font-size: 12px;
+  }
+  h1{
+    font-size: 90px;
+  }
+  .one-column img {
+    width: 100%;
   }
 }
