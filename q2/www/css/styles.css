@@ -23,6 +23,10 @@ header {
   color: #d24a88;
 }
 
+a:link {
+  text-decoration: none;
+}
+
 /* This heading is specifically for University homepage */
 h1 {
   text-align: center;
